@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+
 }
 :root{
   --primary-color:rgb(230, 83, 60);
@@ -14,12 +15,13 @@
   --main-background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 body{
-  background-color: var(--second-bg);
+background-color: black;
+
 }
 .header{
   width: 100%;
   height: 100%;
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background:linear-gradient(180deg, rgb(34, 34, 34), rgba(200, 200, 200, 0) 100%) ;
 }
 
 .header nav{
@@ -63,7 +65,7 @@ body{
   justify-content: space-around;
   align-items: center;
   padding:  120px;
-  
+
 }
 .header-left h1{
   color: white;
@@ -170,6 +172,7 @@ body{
 
 .habit-section{
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -205,6 +208,34 @@ body{
 
 .habit p{
   color: var(--p-color);
+}
+
+.run-section{
+  width: 60%;
+  height: 371px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(34, 34, 34);
+  margin-bottom: 200px;
+  gap: 100px;
+  border-radius: 18px;
+}
+.run-right img{
+  width: 366px;
+  height: 312px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.run-left h1{
+  font-size: 3rem;
+  color: white;
+}
+.run-left p{
+  color: var(--p-color);
+  padding: 12px 0;
 }
 
 
@@ -260,6 +291,26 @@ body{
   .habits{
     flex-direction: column;
   }
+   
+  .run-section{
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    width: 80%;
+    padding: 10px 50px 0;
+    text-align: left;
+  }
+ .run-left h1{
+  font-size: 1.5em;
+ }
+ .run-right img{
+  width: 100%;
+  margin-bottom: 15px;
+ }
+ #join{
+  padding: 10px 70px;
+ }
+
 }
 
 
@@ -281,7 +332,21 @@ body{
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
    }
-
+   .run-section{
+    width: 80%;
+    height: 400px;
+    padding: 10px 30px;
+    
+    
+  }
+  .run-right img{
+    width: 230px;
+    height: 300px;
+  }
+  .run-left h1{
+    font-size: 2rem;
+    
+  }
 
 } 
   
@@ -294,6 +359,20 @@ body{
   .header-main{
     flex-direction: column;
   }
- 
+  .run-section{
+    width: 80%;
+    height: 400px;
+    padding: 10px 30px;
+    
+    
+  }
+  .run-right img{
+    width: 230px;
+    height: 300px;
+  }
+  .run-left h1{
+    font-size: 2rem;
+    
+  }
   
 }
