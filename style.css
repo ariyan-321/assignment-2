@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
   padding: 0;
   margin: 0;
@@ -95,6 +96,11 @@ background-color: black;
   border-radius: 18px;
   cursor: pointer;
   font-size: 1rem;
+}
+
+.shape{
+  font-family: 'Miama', sans-serif;
+  font-size: 6rem;
 }
 
 .header-right{
@@ -336,9 +342,9 @@ background-color: black;
     gap: 50px;
    }
    .run-section{
-    width: 80%;
-    height: 400px;
-    padding: 10px 30px;
+    width: 90%;
+    height: auto;
+    padding: 10px ;
     
     
   }
