@@ -723,7 +723,12 @@ td, th {
 
 
 
-
+@media screen and (max-width:400px){
+  .input-1{
+    grid-template-columns: 1fr ;
+    padding-right: 20px;
+  }
+}
 
 
 
@@ -801,6 +806,77 @@ td, th {
  .run-left{
   margin-top: 15px;
  }
+ .first{
+  grid-template-columns: 1.2fr 0.8fr ;
+ }
+ .second{
+  grid-template-columns: 0.8fr 1.2fr ;
+ }
+ #third,#sixth{
+  display: none;
+ }
+ .team-images{
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+ }
+ .unique{
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  
+ }
+ .footer-container{
+  justify-content: left;
+  padding-left: 30px;
+
+ }
+ .footer-left{
+  margin-top: -70px;
+  padding-bottom: 10px;
+ }
+ .hr{
+  width: 90%;
+ }
+ .clients{
+  grid-template-columns: repeat(1,1fr);
+ }
+ .trainer-info h1{
+  font-size: 1.5rem;
+ }
+ #image-six,#image-three{
+  display: none;
+ }
+ #image-4{
+  top: 20px;
+  left: 0;
+}
+.calculator{
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 0;
+}
+.calculator-section{
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+.calculator-text{
+  margin-left: 22px;
+}
+ 
+
+ 
+.input-2{
+  grid-template-columns: 0.5fr 0.9fr;
+  
+}
+.select-2{
+  width: 95%;
+}
 
 }
 
@@ -838,6 +914,40 @@ td, th {
     font-size: 2rem;
     
   }
+  .footer-container{
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 30px;
+    gap: 40px;
+  }
+  .hr{
+    width: 95%;
+  }
+  .unique{
+    padding-bottom: 30px;
+  }
+  .clients{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .trainer-info h1{
+    font-size: 1.5rem;
+   }
+   .calculator{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .calculator-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+  }
+  .calculator-text{
+    margin-left: 80px;
+  }
 
 } 
   
@@ -864,6 +974,28 @@ td, th {
   .run-left h1{
     font-size: 2rem;
     
+  }
+  .clients{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .trainer-info h1{
+    font-size: 1.5rem;
+   }
+   .calculator{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .calculator-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+  }
+  .calculator-text{
+    margin-left: 80px;
   }
   
 }
