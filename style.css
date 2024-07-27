@@ -705,7 +705,9 @@ td, th {
 }
 
 
-
+hr.hr{
+  border: 1px solid var(--p-color);
+}
 
 
 
