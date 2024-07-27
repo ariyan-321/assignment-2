@@ -797,9 +797,14 @@ td, th {
   font-size: 1.5em;
  }
  .run-right img{
-  width: 100%;
+  width: 120%;
   margin-bottom: 25px;
  }
+.run-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
  #join{
   padding: 10px 70px;
  }
