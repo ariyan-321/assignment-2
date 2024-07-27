@@ -871,11 +871,15 @@ td, th {
 
  
 .input-2{
-  grid-template-columns: 0.5fr 0.9fr;
+  grid-template-columns: 0.5fr 1fr;
   
 }
 .select-2{
-  width: 95%;
+  width: 100%;
+}
+.calculator-right{
+  padding-right: 30px;
+  margin-left: -10px;
 }
 
 }
