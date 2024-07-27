@@ -883,9 +883,13 @@ hr.hr{
 }
 .select-2{
   width: 100%;
+  padding: 12px 0;
 }
 .calculator-right{
   padding-right: 30px;
+  margin-left: -10px;
+}
+.calculator-left{
   margin-left: -10px;
 }
 
