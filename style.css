@@ -203,6 +203,7 @@ background-color: black;
 
 .habit img{
   border-radius: 50%;
+  border: 7px solid var(--second-bg);
 }
 .habit{
   text-align: center;
