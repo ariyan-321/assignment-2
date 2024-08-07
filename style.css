@@ -981,12 +981,12 @@ hr.hr{
   .run-section{
     width: 80%;
     height: 400px;
-    padding: 10px 30px;
-    
+    padding: 10px 20px;
+    gap: 100px;
     
   }
   .run-right img{
-    width: 230px;
+    width: 300px;
     height: 300px;
   }
   .run-left h1{
@@ -1017,10 +1017,19 @@ hr.hr{
   }
   
 }
+@media screen and (min-width:1275px) and (max-width:1355px){
+  .run-section{
+    width: 70%;
+    gap: 50px;
+  }
+}
 
-
-
-
+@media screen and (min-width:1355px) and (max-width:1730px){
+   .run-section{
+    width: 65%;
+    gap: 50px;
+   }
+}
 
 
 
