@@ -65,7 +65,7 @@ background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding:  120px;
+  padding:  90px;
 
 }
 .header-left h1{
@@ -227,8 +227,9 @@ background-color: black;
   justify-content: center;
   background-color: rgb(34, 34, 34);
   margin-bottom: 200px;
-  gap: 100px;
+  gap: 200px;
   border-radius: 18px;
+  
 }
 .run-right img{
   width: 360px;
@@ -919,6 +920,7 @@ hr.hr{
     width: 90%;
     height: auto;
     padding: 10px ;
+    gap: 15px;
     
     
   }
@@ -1016,10 +1018,18 @@ hr.hr{
   
 }
 
-
-
-
-
+@media screen and (min-width:1275px) and (max-width:1375px){
+ .run-section{
+  width: 80%;
+  gap: 100px;
+ }
+}
+@media screen and (min-width:1375px) and (max-width:1780px){
+  .run-section{
+    width: 70%;
+    gap: 100px;
+  }
+}
 
 
 
