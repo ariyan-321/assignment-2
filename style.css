@@ -1018,18 +1018,7 @@ hr.hr{
   
 }
 
-@media screen and (min-width:1275px) and (max-width:1375px){
- .run-section{
-  width: 80%;
-  gap: 100px;
- }
-}
-@media screen and (min-width:1375px) and (max-width:1780px){
-  .run-section{
-    width: 70%;
-    gap: 100px;
-  }
-}
+
 
 
 
