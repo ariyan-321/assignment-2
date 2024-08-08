@@ -15,6 +15,9 @@
   --font-color:white;
   --main-background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
+html,body{
+  overflow-x: hidden;
+}
 body{
 background-color: black;
 
