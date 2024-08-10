@@ -1068,10 +1068,10 @@ hr.hr{
   }
 }
 
-@media screen and (min-width:1355px) and (max-width:1730px){
+@media screen and (min-width:1355px) and (max-width:1770px){
    .run-section{
     width: 65%;
-    gap: 50px;
+    gap: 180px;
    }
 }
 
